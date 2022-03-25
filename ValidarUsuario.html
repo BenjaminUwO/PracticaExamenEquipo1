@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>VALIDACIÓN LOGIN</title>
+
+    <link rel="stylesheet" href="validacion.css"> <!-- archivo vinculacion.css-->
+    <script src="login.js"></script> <!-- archivo longin.javascript -->
+
+</head>
+<body>
+
+    <div class="container"> 
+
+        <div class="main">
+            <img src="imge/user.png" alt=""> <!-- Imagen -->
+            <form id="form_id" method="POST" name="myform">
+                <label>Usuario:</label>
+                <input type="text" name="id" id="id" placeholder="Ingrese Usuario">
+
+                <label>Password:</label>
+                <input type="password" name="contrasena" id="contrasena" placeholder="Ingrese Password">
+
+                <input type="button" value="Login" id="boton" onclick="validate()"> 
+
+            </form>
+
+
+            <span>
+                <b class="note">¿Olvidaste tu contraseña?</b>
+            </span>
+
+
+        
+        </div>
+    </div>
+
+</body>
+</html>
